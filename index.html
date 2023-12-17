@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/output.css">
+</head>
+<body>
+  <main role="main" class="flex justify-center items-center">
+    <div class="widget w-full max-w-3xl bg-white text-off-black rounded-2xl rounded-br-[8rem] py-14 px-11">
+      <form class="grid grid-cols-4 gap-7 relative pb-11 mb-10 border-b border-b-light-grey">
+        <fieldset class="day-fields">
+          <label for="day">Day</label>
+          <input type="text" id="day" name="day" placeholder="DD">
+          <span class="day-message error"></span>
+        </fieldset>
+  
+        <fieldset class="month-fields">
+          <label for="month">Month</label>
+          <input type="text" id="month" name="month" placeholder="MM">
+          <span class="month-message error"></span>
+        </fieldset>
+  
+        <fieldset class="year-fields">
+          <label for="year">Year</label>
+          <input type="text" id="year" name="year" placeholder="YYYY">
+          <span class="year-message error"></span>
+        </fieldset>
+  
+        <button type="submit" class="absolute right-0 -bottom-10 flex items-center justify-center bg-purple hover:bg-off-black h-20 w-20 rounded-full"><span class="block h-9 w-9 bg-cover bg-[url('images/icon-arrow.svg')]"></span></button>
+      </form>
+    
+      <div class="age-result age-years"><span>--</span> years</div>
+      <div class="age-result age-months"><span>--</span> months</div>
+      <div class="age-result age-days"><span>--</span> days</div>
+    </div>
+  </main>
+</body>
+
+<script src="dist/scripts.js"></script>
+</html>
