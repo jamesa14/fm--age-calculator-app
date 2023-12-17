@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/)
+- Solution URL: [https://www.frontendmentor.io/solutions/age-calculator-app-html-tailwind-css-js-gZlBNE6yVq](https://www.frontendmentor.io/solutions/age-calculator-app-html-tailwind-css-js-gZlBNE6yVq)
 - Live Site URL: [https://jamesa14.github.io/fm--age-calculator-app/](https://jamesa14.github.io/fm--age-calculator-app/)
 
 ### Built with
