@@ -7,6 +7,7 @@ This is a solution to the Age calculator app challenge on Frontend Mentor](https
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
   - [Built with](#built-with)
 
 ## Overview
@@ -27,6 +28,11 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.png)
+
+### Links
+
+- Solution URL: [https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/)
+- Live Site URL: [https://jamesa14.github.io/fm--age-calculator-app/](https://jamesa14.github.io/fm--age-calculator-app/)
 
 ### Built with
 
